@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG_6 = "bug";
     private static final String TAG_7 = "rate";
     private static final String TAG_8 = "check_my_other_apps";
+    private static final String TAG_9 = "test";
     public static String CURRENT_TAG = TAG_1;
     public static int navItemIndex = 0;
     private boolean shouldLoadHomeFragOnBackPress = true;
@@ -417,9 +418,6 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.lisence) {
             startActivity(new Intent(MainActivity.this, lisence.class));
         }
-
-
         return super.onOptionsItemSelected(item);
-
     }
 }
