@@ -14,18 +14,6 @@ If it's not work anymore , what you need to do , is just restart your phone.
 
 really appricate people who wanna join and add some function to robust this "Sound Issue Fixer"
 
-# IMPORTANT
-
-after clone this repository , please make DeveloperKey.Java in /app/src/main/java/com/wendyliga/s7soundfix/DeveloperKey.Java
-
-add following code :
-```sh
-public class DeveloperKey {
-public static final String DEVELOPER_KEY = "YOUTUBE_API_KEY";
-}
-```
-
-
 
 # Lisence
 
