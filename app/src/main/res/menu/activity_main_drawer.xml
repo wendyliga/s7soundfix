@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_1" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/nav_2" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_hide_icon"
+                android:icon="@drawable/ic_insert_emoticon_black_24dp"
+                android:title="@string/hide_icon" />
+            <item
+                android:id="@+id/nav_success_sound"
+                android:icon="@drawable/ic_phonelink_ring_black_24dp"
+                android:title="@string/change_sound" />
+
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="@string/Share" />
+            <item
+                android:id="@+id/nav_bug"
+                android:icon="@drawable/ic_bug_report_black_24dp"
+                android:title="@string/bug" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_rate_black_18dp"
+                android:title="@string/rate" />
+
+
+        </menu>
+    </item>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/check_my_other_apps"
+                android:icon="@drawable/ic_android_black_24dp"
+                android:title="@string/check_my_other_apps" />
+            </menu>
+    </item>
+</menu>

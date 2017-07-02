@@ -1,0 +1,108 @@
+<resources>
+    <string name="lisence_circular_progress_button">The MIT License (MIT)
+
+Copyright (c) 2014 Danylyk Dmytro
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</string>
+    <string name="app_name">Galaxy Sound Issue Fixer</string>
+    <string name="fix_sound">Fix Sound</string>
+    <string name="fixing">Fixing</string>
+    <string name="service_active">Service Active</string>
+    <string name="service_inactive">Service Inactive</string>
+    <string name="created_by">Created By</string>
+    <string name="wendy_liga">Wendy Liga</string>
+    <string name="version">Version</string>
+    <string name="visit">Visit</string>
+    <string name="Share">Share</string>
+    <string name="bug">Send Bug or Suggestion</string>
+    <string name="check_my_other_apps">Check My Other Apps</string>
+    <string name="hide_icon">Hide Icon</string>
+    <string name="complate">Complate</string>
+    <string name="failed">Failed</string>
+    <string name="fix">Fix</string>
+    <string name="qs_dialog_active">Active</string>
+    <string name="qs_dialog_inactive">Inactive</string>
+    <string name="qs_dialog_cancel">Cancel</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="home_1">This App solve Sound Issue like sound sudenlly Cuts Off and Appers Again Randomly.</string>
+    <string name="home_2">I Do Not Really Sure This Problem Is Talking About Hardware or Software , But Hey  We Have  Solution Here For That Without Breaking into Your Phone and That is Cool</string>
+    <string name="home_3">You Will Hear Sound When You Press FIX Button if There Is not , Press Again Until You Hear Any Sound.You Can Change It On Slide Menu</string>
+    <string name="home_4">If the Issue Still There,Try to Restart Your Phone</string>
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_1">Home</string>
+    <string name="nav_2">About</string>
+    <string name="lisence">Lisence</string>
+
+    <string name="success_sound">Success Sound</string>
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>About</item>
+        <item>Hide Icon</item>
+        <item>Change Sound</item>
+        <item>Share</item>
+        <item>Send Bug or Suggestion</item>
+        <item>Rate This Apps</item>
+        <item>Check My Other Apps</item>
+    </string-array>
+    <string name="sound_1">None</string>
+    <string name="sound_2">Barking</string>
+    <string name="sound_3">Meow</string>
+    <string name="sound_4">Pouring</string>
+    <string name="sound_5">Shotgun</string>
+
+    <string name="change_sound">Change Sound</string>
+
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="thanks_video">Thank to mIG-L for the video</string>
+
+
+    <string name="error_message_rate_app">unable to find market app</string>
+    <string name="hide_icon_message">After Hiding the Icon , You Can Not Open This Application Again Expect You Reinstall It.You Still Can Access this Feature from Quick Setting Panel</string>
+
+
+    <string name="share_message">Check This Apps !,An application that helps fix Galaxy S7 Sound Issue , more https://goo.gl/bdLx7x</string>
+    <string name="title_share">Share</string>
+    <string name="title_submit_bug_email">Bug Or Suggestion</string>
+    <string name="title_submit_bug">Send mail using...</string>
+    <string name="rate">Rate This App</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-5426329382124795/4272991865</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
