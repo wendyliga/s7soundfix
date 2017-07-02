@@ -26,7 +26,6 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayer.OnInitializedListener;
 import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.google.android.youtube.player.YouTubePlayerSupportFragment;
-import com.wendyliga.s7soundfix.DeveloperKey;
 import com.wendyliga.s7soundfix.MediaPlayerService;
 import com.wendyliga.s7soundfix.R;
 
@@ -113,7 +112,7 @@ public class main extends Fragment {
         YouTubePlayerSupportFragment youTubePlayerFragment = YouTubePlayerSupportFragment.newInstance();
         FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
         transaction.replace(R.id.youtube_layout, youTubePlayerFragment).commit();
-        youTubePlayerFragment.initialize(DeveloperKey.DEVELOPER_KEY, new OnInitializedListener() {
+        youTubePlayerFragment.initialize("DEVELOPER KEY", new OnInitializedListener() {
             @Override
             public void onInitializationSuccess(Provider arg0, YouTubePlayer youTubePlayer, boolean b) {
                 if (!b) {
