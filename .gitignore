@@ -6,5 +6,6 @@
 .DS_Store
 /build
 /bahan
+/app/src/main/java/com/wendyliga/s7soundfix/DeveloperKey.Java
 /captures
 .externalNativeBuild

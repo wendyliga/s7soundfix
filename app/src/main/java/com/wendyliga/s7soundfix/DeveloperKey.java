@@ -14,7 +14,7 @@ public class DeveloperKey {
    * to register a new developer key.
    */
    //developer key for youtube api
-  public static final String DEVELOPER_KEY = "API_KEY";
+  public static final String DEVELOPER_KEY = "AIzaSyDOuUFstWx4QKZtW8HECl6VDfxoChyn7Sw";
 
 
 }

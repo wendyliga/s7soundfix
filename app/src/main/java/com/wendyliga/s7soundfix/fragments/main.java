@@ -1,14 +1,11 @@
 package com.wendyliga.s7soundfix.fragments;
 
 import android.app.Activity;
-import android.app.Dialog;
 import android.content.ComponentName;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Environment;
@@ -16,21 +13,13 @@ import android.os.IBinder;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-import android.widget.RadioGroup;
-import android.widget.Toast;
-
 import com.dd.CircularProgressButton;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
@@ -45,9 +34,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.ArrayList;
-
-import static android.view.View.GONE;
 
 
 public class main extends Fragment {
@@ -127,7 +113,7 @@ public class main extends Fragment {
         YouTubePlayerSupportFragment youTubePlayerFragment = YouTubePlayerSupportFragment.newInstance();
         FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
         transaction.replace(R.id.youtube_layout, youTubePlayerFragment).commit();
-        youTubePlayerFragment.initialize("DEVELOPER_KEY", new OnInitializedListener() {
+        youTubePlayerFragment.initialize(DeveloperKey.DEVELOPER_KEY, new OnInitializedListener() {
             @Override
             public void onInitializationSuccess(Provider arg0, YouTubePlayer youTubePlayer, boolean b) {
                 if (!b) {
