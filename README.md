@@ -1,5 +1,7 @@
 # Galaxy Sound Issue Fixer
 
+![Alt text](https://user-images.githubusercontent.com/16457495/27771197-1fec10f4-5f74-11e7-9abc-feff5fada66c.jpg "Screenshot 01")
+
 This App solve Sound Issue like sound sudenlly Cuts Off and Appers Again Randomly.
 
 I Do Not Really Sure This Problem Is Talking About Hardware or Software , But Hey We Have Solution Here For That Without Breaking into Your Phone and That is Cool
